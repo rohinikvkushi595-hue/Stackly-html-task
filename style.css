@@ -1,0 +1,169 @@
+/* Page Background */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f7fc;
+    margin:0;
+    padding:20px;
+}
+
+/* Header */
+h1{
+    color:rgb(255, 255, 255);
+    background:#00b695f4;
+    padding:10px;
+    border-radius:8px;
+    text-align:center;
+    letter-spacing:2px;
+    transform:scale(1.2);
+}
+
+h2{
+    text-align:center;
+    color:#0052b6;
+}
+
+h3{
+    color:#023e8a;
+}
+
+/* Form */
+form{
+    background:white;
+    width:600px;
+    margin:auto;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Labels */
+label{
+    font-weight:bold;
+    color:#333;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right:5px;
+}
+
+/* File Upload */
+input[type="file"]{
+    margin-top:10px;
+}
+
+/* Buttons */
+input[type="submit"]{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+input[type="submit"]:hover{
+    background:#218838;
+}
+
+input[type="reset"]{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    margin-left:10px;
+}
+
+input[type="reset"]:hover{
+    background:#c82333;
+}
+
+/* Hyperlink */
+a{
+    color:#0077b6;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#023e8a;
+    text-decoration:underline;
+}
+
+/* Lists */
+ol,ul{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    width:250px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background:white;
+}
+
+th{
+    background:#0077b6;
+    color:white;
+}
+
+th,td{
+    padding:12px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+/* Marquee */
+marquee{
+    background:#0077b6;
+    color:white;
+    padding:10px;
+    margin-top:20px;
+    border-radius:5px;
+    font-size:18px;
+}
+
+/* Blockquote */
+blockquote{
+    background:#e3f2fd;
+    border-left:5px solid #0077b6;
+    padding:15px;
+    margin-top:20px;
+    font-style:italic;
+    border-radius:5px;
+}
+
+/* Horizontal Line */
+hr{
+    border:1px solid #ccc;
+    margin:20px 0;
+}
